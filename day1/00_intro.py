@@ -3,14 +3,14 @@
 
 # lets print a string
 # console.log("Hello, CS35!", "Some other text", "and theres more...")
-# print("Hello, CS35!", "Some other text", "and theres more...")
-# print("Hello, CS35!", "Some other text", "and theres more...")
+# print("Hello, CS35!", "Some other text", "and theres more...", end='bob\n')
+# print("Hello, CS35!" + "Some other text" + "and theres more...")
 # print("Hello")
 # variables
 # label = value
 # let const var (js)
 # int bool short (c)
-first_name = "Tom"
+# first_name = "Tom"
 # print("Hello CS35 and " + first_name)
 # num = 23.87
 
@@ -21,7 +21,7 @@ first_name = "Tom"
 # print(my_string.strip())
 # print(len(my_string))
 # print(len(my_string.strip()))
-st = "sdfsd sdfsdf"
+# st = "sdfsd sdfsdf"
 
 # print(f"Hello CS35 and           {len('this is a test')}     {first_name}.......".strip())
 # print("something on a new line")
@@ -43,21 +43,23 @@ lst1 = [1, 2, 3, 4, 5, "this is a string", [23, "bob", ['s','w', []]]]
 lst1.append(24)
 # add an element 12 to the start of lst1
 lst1.insert(0, 12)
-# print(lst1)
+lst1.insert(1, [66,88])
+print(lst1)
 
+lst2 = list()
 # # print all values in lst2
-# print(lst2)
-# print(lst1[0])
-# print(lst1[1])
-# print(lst1[2])
-# print(lst1[3])
-# print(lst1[4])
+print(lst2)
+# # print(lst1[0])
+print(lst1[1])
+print(lst1[2])
+# # print(lst1[3])
+# # print(lst1[4])
 
 # loop over the list using a for loop
-# for i in range(len(lst1)):
-#     print(lst1[i])
-# for content in lst1:
-#     print(content)
+for i in range(len(lst1)):
+     print(lst1[i])
+for content in lst1:
+    print(content)
 
 
 # while loop
@@ -112,9 +114,9 @@ d3 = {
 # access an element via its key
 d3["name"]  # => "Tom"
 
-print(d3["name"]) # +> "Tom"
-print(d3[5676])  # +> "woooooo"
+# print(d3["name"]) # +> "Tom"
+# print(d3[5676])  # +> "woooooo"
 
-d3["height"] = 345
+# d3["height"] = 345
 
-print(d3)
+# print(d3)
